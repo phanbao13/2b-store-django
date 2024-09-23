@@ -55,8 +55,18 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color: white;
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
+}
+
+h3 span#giasanpham {
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: white;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 3000;
 }
 
 #namestore {
@@ -78,7 +88,7 @@ section#popAlert {
   top: 50%;                /* Center vertically */
   left: 50%;               /* Center horizontally */
   transform: translate(-50%, -50%); /* Adjust for its own width and height */
-  background-color: rgb(79, 76, 80); /* Background color */
+  background-color: rgb(0, 0, 0); /* Background color */
   border: 1px solid #007bff; /* Border style */
   padding: 20px;          /* Padding */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Shadow for a popup effect */
@@ -88,5 +98,5 @@ section#popAlert {
   text-align: center;     /* Center text */
   border-radius: 15px;
   font-size: 20px;
-  color: wheat;
+  color: white;
 }
