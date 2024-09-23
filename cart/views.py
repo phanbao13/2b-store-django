@@ -18,8 +18,9 @@ def add_to_cart(request):
         quantity = form.cleaned_data['quantity']
         product = get_object_or_404(Product, id=product_id, availibility=True)
         cart.add(product_id, product.price, quantity)
-        messages.success(request, f'{product.name} added to cart.')
-    return redirect('cart:cart_details')
+        messages.success(request, f"Đã thêm {product.name} vào giỏ hàng.")
+    # return redirect('cart:cart_details')
+    return redirect('store:product_list')
 
 
 @login_required
